@@ -164,8 +164,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 633497087}
-  - component: {fileID: 633497086}
   - component: {fileID: 633497085}
+  - component: {fileID: 633497086}
   m_Layer: 0
   m_Name: Fidget
   m_TagString: Untagged
@@ -208,8 +208,8 @@ MonoBehaviour:
   m_PointerDelta: {x: 10, y: 0, z: 0}
   m_PointerPosition: {x: 0, y: 0, z: 0}
   m_ForceAddSpin: 0
-  m_ForceSpinVelocity: 10
-  m_TargetFPS: 30
+  m_ForceSpinVelocity: 5
+  m_TargetFPS: 0
 --- !u!4 &633497087
 Transform:
   m_ObjectHideFlags: 0
@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 803863994}
   - component: {fileID: 803863996}
   - component: {fileID: 803863995}
+  - component: {fileID: 803863997}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -311,6 +312,20 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &803863997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803863993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2887e1c3c8495fc47bdfb5955a7f88a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 633497087}
+  m_DrawCount: 0
 --- !u!1 &1053347035
 GameObject:
   m_ObjectHideFlags: 0
